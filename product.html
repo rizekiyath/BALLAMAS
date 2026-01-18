@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produit</title>
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+      <link rel="stylesheet" href="/src/output.css"/> 
+</head>
+<body>
+    <header>
+        <!-- Top header -->
+        <h2 class="fixed top-0 left-0 w-full bg-black text-white py-4 text-center z-40 text-sm sm:text-base md:text-lg">
+          Sign up and get 20% off for all new arrivals collections
+        </h2>
+        <main class="fixed top-14 left-0 w-full bg-white shadow z-50"> 
+          <div class="container mx-auto flex items-center justify-between py-4 px-4 md:px-0">
+            <!-- Hamburger mobile/tablet -->
+            <div class="md:hidden">
+              <button id="hamburger" class="focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+              </button>
+            </div>
+            <!-- Menu principal desktop -->
+            <nav class="hidden md:flex gap-6">
+              <ul class="flex items-center gap-6">
+                <li><a href="#" class="hover:text-gray-700">Men</a></li>
+                <li><a href="#" class="hover:text-gray-700">Women</a></li>
+                <li><a href="#" class="hover:text-gray-700">Kids</a></li>
+                <li><a href="#" class="hover:text-gray-700">Collection</a></li>
+              </ul>
+            </nav>
+            <!-- Logo -->
+            <div class="flex-1 flex justify-center md:justify-center">
+              <img src="src/assets/images/variants=dark.png" alt="logo" class="h-10">
+            </div>
+            <!-- Menu secondaire desktop -->
+            <nav class="hidden md:flex gap-4">
+              <ul class="flex items-center gap-4">
+                <li><a href="#" class="hover:text-gray-700">Shop</a></li>
+                <li><a href="#" class="hover:text-gray-700">About Us</a></li>
+                <li><i class="fa-regular fa-user"></i> <a href="#" class="hover:text-gray-700">Account</a></li>
+                <li><a href="#" class="hover:text-gray-700">Cat(0)</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              </ul>
+            </nav>
+            <!-- Icônes mobile/tablet -->
+            <div class="flex items-center gap-4 md:hidden">
+              <i class="fa-solid fa-magnifying-glass text-lg"></i>
+              <i class="fa-solid fa-bag-shopping text-lg"></i>
+              
+            </div>
+          </div>
+          <!-- Menu mobile déroulant -->
+          <div id="mobileMenu" class="hidden md:hidden bg-white shadow-md">
+            <ul class="flex flex-col p-4 space-y-2">
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Men</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Women</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Kids</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Collection</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Shop</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">About Us</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Account</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Cat(0)</a></li>
+              <li class="hidden md:block"><a href="#">FAQ</a></li>
+              <li class="hidden md:block"><a href="#">Contact Us</a></li>
+
+            </ul>
+          </div>
+
+        </main>
+
+        <section class="  container m-auto my-25 px-6 py-12">
+            <div class=" grid grid-cols-1 lg:grid-cols-2  gap-12 ">
+             <!-- image -->
+              <div class="rounded-3xl overflow-hidden bg-gray-100">
+                <img class="w-full h-full object-cover" src="src/assets/images/Argentina_1994_Away_Jersey_Blue_IS0266_HM1.png" alt="">
+              </div>
+              <!-- infos -->
+               <div class="space-x-6">
+                    <h2 class="text-2xl font-bold">Badacore Tshirt</h2>
+                    <p class="text-lg font-semibold">CAD $80</p>
+                    <!-- colors -->
+                    <div class="">
+                     <p class="text-lg font-semibold mb-2"  >Color:Green</p>
+                        <div class="flex gap-2 mb-2">
+                            <span class="w-4 h-4 rounded-full bg-green-600"></span>
+                            <span class="w-4 h-4 rounded-full bg-green-400 "></span>
+                            <span class="w-4 h-4 rounded-full bg-green-300 "></span>
+                            <span class="w-4 h-4 rounded-full bg-green-200 "></span>
+                        </div>
+                    </div>
+                    <!-- sizes -->
+                    <p class="text-lg font-semibold mb-2">Size</p>
+                    <div class="flex gap-2">
+                        <span class="px-4 py-1 bg-black text-white border rounded-full">XS</span>
+                        <span class="px-4 py-1 hover:bg-black hover:text-white border rounded-full">S</span>
+                        <span class="px-4 py-1 hover:bg-black hover:text-white border  rounded-full">ML</span>
+                        <span class="px-4 py-1  hover:bg-black hover:text-white border rounded-full">L</span>
+                        <span class="px-4 py-1 hover:bg-black hover:text-white border rounded-full">XL</span>
+                    </div>
+                    <!-- button -->
+                    <div class=" flex gap-4">
+                        <button class=" bg-black text-white my-4 px-12 py-4 rounded-full font-semibold ">BUY NOW</button>
+                        <button class=" hover:bg-black hover:text-white my-4 px-12 py-4 border rounded-full font-semibold  transition ">ADD TO CARD</button>
+                    </div> 
+                    <!-- desciption -->
+                     <h2 class="text-2xl font-bold">DESCRIPTION</h2>
+                     <p class="text-base md:text-lg font-normal leading-relaxed text-justify mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Atque eaque temporibus ab reiciendis suscipit corporis et magni enim consequatur quod laudantium voluptatibus aspernatur quis natus minima impedit, quas quo esse?
+
+                     </p>
+               </div>
+            </div>
+        </section>
+        <!-- card -->
+        <section class="container m-auto">
+            <h1 class=" text-2xl m-4 font-bold">You may also like</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+                <!-- card1 -->
+                <div class=" rounded-3xl p-6 overflow-hidden">
+                    <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+                    <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+                    <span class="text-gray-500">$99</span>
+                </div>
+                <!-- card2 -->
+                 <div class=" rounded-3xl p-6  overflow-hidden">
+                    <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+                    <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+                    <span class="text-gray-500">$99</span>
+                </div>
+                <!-- card3 -->
+                 <div class=" rounded-3xl p-6  overflow-hidden">
+                    <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+                    <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+                    <span class="text-gray-500">$99</span>
+                </div>
+                <!-- card4 -->
+                 <div class=" rounded-3xl p-6  overflow-hidden">
+                    <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+                    <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+                    <span class="text-gray-500">$99</span>
+                </div>
+
+            </div>
+        </section>
+
+    </header>
+
+
+
+
+      <footer class="bg-black text-white ">
+        <div class="container mx-auto px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-15">
+            <!-- partie1 de la grille -->
+            <div class="max-w-md">
+             <img  class="p-8" src="src/assets/images/BALLAMAS.png" alt="" >
+             <h4 class="text-gray-400 ml-8 text-sm mb-6 leading-relaxed">Subscribe to our newsletter for upcoming products and best discount for all items</h4>
+             <div class="flex gap-4 ml-8">
+                <input class="flex-1 bg-transparent border border-gray-600 rounded-full px-6 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white transition" type="email" placeholder="Your email">
+                <button type="submit" class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Subscribe</button>
+             </div>
+            </div>
+            <!-- partie2 de la grille -->
+            <div class="grid grid-cols-3 gap-8 p-8">
+              <div>
+                <!--section produit-->
+                <h3 class="text-lg font-semibold mb-4">Produit</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Jacket</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">T-shirt</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Jacket</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Shoes</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Sunglasses</a></li>
+                </ul>
+              </div>
+              <div>
+                <!--section categories-->
+                <h3 class="text-lg font-semibold mb-4">Categories</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Men</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Women</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Kids</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Gift</a></li>
+                   <li><a href="#" class="hover:text-white transition cursor-pointer">New arrival</a></li>
+                </ul>
+              </div>
+              <div>
+                <!--section produit-->
+                <h3 class="text-lg font-semibold mb-4">Our Social Media</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Instagram</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Facebook</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Youtube</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">X</a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <!-- copyright -->
+        <div class="mt-12 pt-6 text-center border-t border-gray-800">
+          <p class="text-gray-500 text-xs"> © BALLAMAS 2024 by waris</p>
+        </div>
+    </footer>  
+    <!-- Script pour le menu mobile -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

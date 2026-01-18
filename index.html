@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home </title>
+      <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+      <link rel="stylesheet" href="/src/output.css"/> 
+    </head>
+    <body>
+      <header class="">
+        <!-- Top header -->
+        <h2 class="fixed top-0 left-0 w-full bg-black text-white py-4 text-center z-40 text-sm sm:text-base md:text-lg">
+          Sign up and get 20% off for all new arrivals collections
+        </h2>
+        <main class="fixed top-14 left-0 w-full bg-white shadow z-50">
+          <div class="container mx-auto flex items-center justify-between py-4 px-4 md:px-0">
+            <!-- Hamburger mobile/tablet -->
+            <div class="md:hidden">
+              <button id="hamburger" class="focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+              </button>
+            </div>
+            <!-- Menu principal desktop -->
+            <nav class="hidden md:flex gap-6">
+              <ul class="flex items-center gap-6">
+                <li><a href="#" class="hover:text-gray-700">Men</a></li>
+                <li><a href="#" class="hover:text-gray-700">Women</a></li>
+                <li><a href="#" class="hover:text-gray-700">Kids</a></li>
+                <li><a href="#" class="hover:text-gray-700">Collection</a></li>
+              </ul>
+            </nav>
+            <!-- Logo -->
+            <div class="flex-1 flex justify-center md:justify-center">
+              <img src="src/assets/images/variants=dark.png" alt="logo" class="h-10">
+            </div>
+            <!-- Menu secondaire desktop -->
+            <nav class="hidden md:flex gap-4">
+              <ul class="flex items-center gap-4">
+                <li><a href="#" class="hover:text-gray-700">Shop</a></li>
+                <li><a href="#" class="hover:text-gray-700">About Us</a></li>
+                <li><i class="fa-regular fa-user"></i> <a href="#" class="hover:text-gray-700">Account</a></li>
+                <li><a href="#" class="hover:text-gray-700">Cat(0)</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              </ul>
+            </nav>
+            <!-- Icônes mobile/tablet -->
+            <div class="flex items-center gap-4 md:hidden">
+              <i class="fa-solid fa-magnifying-glass text-lg"></i>
+              <i class="fa-solid fa-bag-shopping text-lg"></i>
+              
+            </div>
+          </div>
+          <!-- Menu mobile déroulant -->
+          <div id="mobileMenu" class="hidden md:hidden bg-white shadow-md">
+            <ul class="flex flex-col p-4 space-y-2">
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Men</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Women</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Kids</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Collection</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Shop</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">About Us</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Account</a></li>
+              <li><a href="#" class="block py-2 px-4 hover:bg-gray-100">Cat(0)</a></li>
+              <li class="hidden md:block"><a href="#">FAQ</a></li>
+              <li class="hidden md:block"><a href="#">Contact Us</a></li>
+
+            </ul>
+          </div>
+
+        </main>
+        
+              
+        <section class="container my-25 m-auto relative w-full">
+          <!-- image -->
+          <img src="src/assets/images/jordan-essentials-chicago-mens-jacket-N0ch5l.png" class="w-full h-105 object-cover  rounded-3xl" alt="">
+          <div class="absolute inset-0 bg-black/40 rounded-3xl"></div>
+          <!-- texte -->
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
+            <p class="text-sm tracking-widest mb-4">________  we bring new fashion to the world ________</p>
+            <h1 class="text-3xl md:text-5xl font-bold max-w-3xl leading-tight mb-6"> DISCOVER THE LATEST FASHION TRENDS HERE</h1>
+            <p class="text-base max-w-xl text-gray-200 mb-8">Discover a world of fashion with our meticulously curated outfits.Shop now to update your wardrobe with chic and stylish outfits.</p>
+            <button onclick="window.location.href='product.html'" class="bg-white text-black px-6 py-3 rounded-full flex items-center gap-2 hover:bg-black hover:text-white transition">
+              Start shopping
+              <i class="fa-solid fa-square-arrow-up-right"></i>
+            </button>
+          </div>
+        </section>
+      </header>
+      <section class="max-w-7xl mx-auto ">
+        <!-- title -->
+        <h1 class="text-2xl md:text-3xl font-extrabold text-center leading-tight">
+          Discover the latest trends in summer fashion.
+          Shop now and refresh your wardrobe with our stylish summer shirts
+        </h1>
+        <!-- menu -->
+        <nav class="flex justify-center mt-8">
+          <ul class="flex flex-wrap gap-4">
+            <li><a class="px-5 py-2 rounded-full bg-black text-white text-sm" href="#">All 132</a></li>
+            <li><a class="px-5 py-2 rounded-full hover:bg-black hover:text-white border text-sm" href="#">Accessories 13</a></li>
+            <li><a class="px-5 py-2 rounded-full hover:bg-black hover:text-white border text-sm" href="#">Featured 67</a></li>
+            <li><a class="px-5 py-2 rounded-full hover:bg-black hover:text-white border text-sm" href="#">Unisex 52</a></li>
+          </ul>
+        </nav>
+        <!-- product grid 1-->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 ">
+          <!-- card -->
+          <div class=" rounded-3xl p-6 relative overflow-hidden">
+            <button class="absolute m-4 uppercase text-xs bg-white px-3 py-1 rounded-full shadow">Get off 20%</button>
+            <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+          </div>
+          <!-- card -->
+          <div class=" rounded-3xl p-6 relative overflow-hidden">
+            <button class="absolute m-4 uppercase text-xs bg-white px-3 py-1 rounded-full shadow">Get off 20%</button>
+            <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+          </div>
+          
+          <!-- card -->
+          <div class=" rounded-3xl p-6 relative overflow-hidden">
+            <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+          </div> 
+        </div>
+        <!--product grid 2  -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8  ">
+          <!-- card -->
+          <div class=" rounded-3xl p-6 relative overflow-hidden">
+            <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+          </div> 
+          <!-- card -->
+          <div class="relative rounded-3xl p-6 overflow-hidden">
+            <button class="absolute m-4 uppercase text-xs bg-white px-3 py-1 rounded-full shadow">Get off 20%</button>
+            <img  class="w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <div class="absolute bottom-30 left-6 right-6 flex gap-2" >
+              <button class="flex-1 bg-white text-black p-2 m-2 rounded-full text-sm font-medium hover:bg-black  hover:text-white transition  "> <i class="fa-solid fa-bag-shopping"></i> ADD TO CART</button>
+              <button class="flex-1  text-white p-2 m-2 border rounded-full text-sm font-medium  hover:bg-black transition ">BUY NOW</button>
+            </div>
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+
+          </div>
+          <!-- card -->
+          <div class=" rounded-3xl p-6 relative overflow-hidden">
+            <img class=" w-full rounded-3xl  object-contain" src="src/assets/images/M+NSW+SW+AIR+CREW+FLC+BB.png" alt="">
+            <h3 class="mt-4 font-semibold text-lg">SUMMER SHIRT</h3>
+            <span class="text-gray-500">$99</span>
+          </div> 
+        </div>
+        <!-- section collection -->
+        <!-- Bouton View More centré -->
+        <div class="flex justify-center mb-8">
+          <button class="px-5 py-2 rounded-full hover:bg-black hover:text-white border border-black text-sm transition-colors duration-300">
+            View More
+          </button>
+        </div>
+        <!-- Titre et description -->
+        <div class="text-center mb-12">
+          <h1 class="text-4xl font-bold mb-4">OUR COLLECTION</h1>
+          <p class="text-gray-600 text-sm">
+            Our latest collection, where classic and contemporary styles converge in perfect harmony.
+          </p>
+        </div>
+
+        <!-- Grille d'images -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-6">
+          <!-- Carte 1 : Image avec bouton -->
+          <div class="relative rounded-3xl overflow-hidden bg-gray-200">
+            <img class="w-420 h-125 object-contain" 
+                src="src/assets/images/tech-mens-fleece-shacket-W5pmdx.png" 
+                alt="Tech Mens Fleece">
+            
+            <!-- Bouton Learn More en bas -->
+            <button class="absolute bottom-6 left-6 bg-white px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-gray-100 transition">
+              LEARN MORE
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+
+          <!-- Carte 2 : Image avec texte centré -->
+          <div class="relative rounded-3xl overflow-hidden">
+            <img class="w-full h-125 rounded-3xl object-cover" 
+              src="src/assets/images/abraham-george-wwVtHt5Px18-unsplash.png" 
+              alt="Classic Men"
+            >
+            <!-- Texte centré sur l'image -->
+            <div class="absolute inset-0 flex flex-col items-center my-50 text-white ">
+              <h2 class="text-5xl font-bold mb-2" >
+                CLASSIC MEN
+              </h2>
+              <p class="text-lg">
+                We're changing the way things get made
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-black text-white  ">
+        <div class="container mx-auto px-8 my-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-15">
+            <!-- partie1 de la grille -->
+            <div class="max-w-md">
+             <img  class="p-8" src="src/assets/images/BALLAMAS.png" alt="" >
+             <h4 class="text-gray-400 ml-8 text-sm mb-6 leading-relaxed">Subscribe to our newsletter for upcoming products and best discount for all items</h4>
+             <div class="flex gap-4 ml-8">
+                <input class="flex-1 bg-transparent border border-gray-600 rounded-full px-6 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white transition" type="email" placeholder="Your email">
+                <button type="submit" class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Subscribe</button>
+             </div>
+            </div>
+            <!-- partie2 de la grille -->
+            <div class="grid grid-cols-3 gap-8 p-8">
+              <div>
+                <!--section produit-->
+                <h3 class="text-lg font-semibold mb-4">Produit</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Jacket</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">T-shirt</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Jacket</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Shoes</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Sunglasses</a></li>
+                </ul>
+              </div>
+              <div>
+                <!--section categories-->
+                <h3 class="text-lg font-semibold mb-4">Categories</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Men</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Women</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Kids</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Gift</a></li>
+                   <li><a href="#" class="hover:text-white transition cursor-pointer">New arrival</a></li>
+                </ul>
+              </div>
+              <div>
+                <!--section produit-->
+                <h3 class="text-lg font-semibold mb-4">Our Social Media</h3>
+                <ul class="space-y-3 text-gray-400">
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Instagram</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Facebook</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">Youtube</a></li>
+                  <li><a href="#" class="hover:text-white transition cursor-pointer">X</a></li>
+                </ul>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <!-- copyright -->
+        <div class="mt-12 pt-6 text-center border-t border-gray-800">
+          <p class="text-gray-500 text-xs"> © BALLAMAS 2024 by waris</p>
+        </div>
+      </footer>
+      <!-- Script pour le menu mobile -->
+      <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      </script>
+
+      
+      
+    </body>
+</html>
