@@ -1,1 +1,2 @@
 npx tailwindcss -i ./input.css -o ./src/output.css --watch
+fixed top-0 left-0 w-full

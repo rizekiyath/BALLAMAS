@@ -10,7 +10,7 @@
     <body>
       <header class="">
         <!-- Top header -->
-        <h2 class="fixed top-0 left-0 w-full bg-black text-white py-4 text-center z-40 text-sm sm:text-base md:text-lg">
+        <h2 class=" fixed top-0 left-0 w-full bg-black text-white py-4 text-center z-40 text-sm sm:text-base md:text-lg">
           Sign up and get 20% off for all new arrivals collections
         </h2>
         <main class="fixed top-14 left-0 w-full bg-white shadow z-50">
@@ -67,29 +67,30 @@
 
             </ul>
           </div>
-
         </main>
-        
-              
-        <section class="container my-25 m-auto relative w-full">
-          <!-- image -->
-          <img src="src/assets/images/jordan-essentials-chicago-mens-jacket-N0ch5l.png" class="w-full h-105 object-cover  rounded-3xl" alt="">
-          <div class="absolute inset-0 bg-black/40 rounded-3xl"></div>
-          <!-- texte -->
-          <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
-            <p class="text-sm tracking-widest mb-4">________  we bring new fashion to the world ________</p>
-            <h1 class="text-3xl md:text-5xl font-bold max-w-3xl leading-tight mb-6"> DISCOVER THE LATEST FASHION TRENDS HERE</h1>
-            <p class="text-base max-w-xl text-gray-200 mb-8">Discover a world of fashion with our meticulously curated outfits.Shop now to update your wardrobe with chic and stylish outfits.</p>
-            <button onclick="window.location.href='product.html'" class="bg-white text-black px-6 py-3 rounded-full flex items-center gap-2 hover:bg-black hover:text-white transition">
-              Start shopping
-              <i class="fa-solid fa-square-arrow-up-right"></i>
-            </button>
-          </div>
-        </section>
       </header>
-      <section class="max-w-7xl mx-auto ">
+      <!-- hero -->
+      <div class="container mx-auto px-6 py-16 lg:py-24 ">
+          <section class=" relative w-full">
+            <!-- image -->
+            <img src="src/assets/images/jordan-essentials-chicago-mens-jacket-N0ch5l.png" class="w-full h-105 object-cover  rounded-3xl" alt="">
+            <div class="absolute inset-0 bg-black/40 rounded-3xl"></div>
+            <!-- texte -->
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-6">
+              <p class="text-sm tracking-widest mb-4">________  we bring new fashion to the world ________</p>
+              <h1 class="text-3xl md:text-5xl font-bold max-w-3xl leading-tight mb-6"> DISCOVER THE LATEST FASHION TRENDS HERE</h1>
+              <p class="text-base max-w-xl text-gray-200 mb-8">Discover a world of fashion with our meticulously curated outfits.Shop now to update your wardrobe with chic and stylish outfits.</p>
+              <button onclick="window.location.href='product.html'" class="bg-white text-black px-6 py-3 rounded-full flex items-center gap-2 hover:bg-black hover:text-white transition">
+                Start shopping
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+              </button>
+            </div>
+          </section>
+      </div>
+      
+      <section class="max-w-7xl container mx-auto ">
         <!-- title -->
-        <h1 class="text-2xl md:text-3xl font-extrabold text-center leading-tight">
+        <h1 class="text-2xl sm:text-3xl font-bold text-center mb-8">
           Discover the latest trends in summer fashion.
           Shop now and refresh your wardrobe with our stylish summer shirts
         </h1>
@@ -103,7 +104,7 @@
           </ul>
         </nav>
         <!-- product grid 1-->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 ">
+        <div class="grid grid-cols-1 sm:grid-cols-2 items-center justify-center lg:grid-cols-3 gap-8 mt-12 ">
           <!-- card -->
           <div class=" rounded-3xl p-6 relative overflow-hidden">
             <button class="absolute m-4 uppercase text-xs bg-white px-3 py-1 rounded-full shadow">Get off 20%</button>
@@ -154,64 +155,45 @@
           </div> 
         </div>
         <!-- section collection -->
+      </section>
+
         <!-- Bouton View More centré -->
         <div class="flex justify-center mb-8">
           <button class="px-5 py-2 rounded-full hover:bg-black hover:text-white border border-black text-sm transition-colors duration-300">
             View More
           </button>
         </div>
-        <!-- Titre et description -->
-        <div class="text-center mb-12">
-          <h1 class="text-4xl font-bold mb-4">OUR COLLECTION</h1>
-          <p class="text-gray-600 text-sm">
-            Our latest collection, where classic and contemporary styles converge in perfect harmony.
-          </p>
-        </div>
+        <!-- section collection -->
+        <section class="container mx-auto px-4 sm:px-6 mt-20">
+          <h1 class="text-3xl font-bold text-center mt-15">OUR COLLECTION</h1>
 
-        <!-- Grille d'images -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-6">
-          <!-- Carte 1 : Image avec bouton -->
-          <div class="relative rounded-3xl overflow-hidden bg-gray-200">
-            <img class="w-420 h-125 object-contain" 
-                src="src/assets/images/tech-mens-fleece-shacket-W5pmdx.png" 
-                alt="Tech Mens Fleece">
-            
-            <!-- Bouton Learn More en bas -->
-            <button class="absolute bottom-6 left-6 bg-white px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2 hover:bg-gray-100 transition">
-              LEARN MORE
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </button>
-          </div>
+          <div class=" mt-4 pb-15 grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="relative rounded-3xl overflow-hidden">
+              <img class="w-full .h-[300px] sm:.h-[400px] object-contain" src="src/assets/images/tech-mens-fleece-shacket-W5pmdx.png" />
+              <button class="absolute bottom-4 left-4 bg-white px-4 py-2 rounded-full text-sm">
+                  LEARN MORE
+              </button>
+            </div>
 
-          <!-- Carte 2 : Image avec texte centré -->
-          <div class="relative rounded-3xl overflow-hidden">
-            <img class="w-full h-125 rounded-3xl object-cover" 
-              src="src/assets/images/abraham-george-wwVtHt5Px18-unsplash.png" 
-              alt="Classic Men"
-            >
-            <!-- Texte centré sur l'image -->
-            <div class="absolute inset-0 flex flex-col items-center my-50 text-white ">
-              <h2 class="text-5xl font-bold mb-2" >
-                CLASSIC MEN
-              </h2>
-              <p class="text-lg">
-                We're changing the way things get made
-              </p>
+            <div class="relative rounded-3xl overflow-hidden">
+              <img class="w-full .h-[300px] sm:.h-[400px] object-cover" src="src/assets/images/abraham-george-wwVtHt5Px18-unsplash.png" />
+              <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
+                <h2 class="text-3xl sm:text-5xl font-bold">CLASSIC MEN</h2>
+                <p class="text-sm sm:text-lg">We're changing the way things get made</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <footer class="bg-black text-white  ">
-        <div class="container mx-auto px-8 my-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-15">
-            <!-- partie1 de la grille -->
+        </section>
+      <footer class="bg-black text-white   ">
+          <div class=" container px-2 m-auto grid grid-cols-1 lg:grid-cols-2">
+            <!-- partie1 de la grille --> 
             <div class="max-w-md">
-             <img  class="p-8" src="src/assets/images/BALLAMAS.png" alt="" >
-             <h4 class="text-gray-400 ml-8 text-sm mb-6 leading-relaxed">Subscribe to our newsletter for upcoming products and best discount for all items</h4>
-             <div class="flex gap-4 ml-8">
-                <input class="flex-1 bg-transparent border border-gray-600 rounded-full px-6 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white transition" type="email" placeholder="Your email">
-                <button type="submit" class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Subscribe</button>
-             </div>
+              <img  class="p-8" src="src/assets/images/BALLAMAS.png" alt="" >
+              <h4 class="text-gray-400 ml-8 text-sm mb-6 leading-relaxed">Subscribe to our newsletter for upcoming products and best discount for all items</h4>
+              <div class="flex gap-2 ml-4">
+                  <input class="flex-1 bg-transparent border border-gray-600 rounded-full px-6 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white transition" type="email" placeholder="Your email">
+                  <button type="submit" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Subscribe</button>
+              </div>
             </div>
             <!-- partie2 de la grille -->
             <div class="grid grid-cols-3 gap-8 p-8">
@@ -249,7 +231,7 @@
               </div> 
             </div>
           </div>
-        </div>
+       
         <!-- copyright -->
         <div class="mt-12 pt-6 text-center border-t border-gray-800">
           <p class="text-gray-500 text-xs"> © BALLAMAS 2024 by waris</p>
